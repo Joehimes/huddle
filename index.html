@@ -1,70 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Huddle</title>
+  </head>
+  <body>
+    <section id="intro">
+      <section id="logo">
+        <img src="images/logo.svg" alt="logo" />
+        <a href="#">Try It Free</a>
+      </section>
+      <h1>Build The Community Your Fans Will Love</h1>
+      <p>
+        Huddle re-imagines the way we build communities. You have a voice, but
+        so does your audience. Create connections with your users as you engage
+        in genuine discussion.
+      </p>
+      <a href="#">Get Started For Free</a>
+      <img src="images/illustration-mockups.svg" alt="mockups" />
+    </section>
+    <section id="cards">
+      <section id="grow">
+        <img src="images/illustration-grow-together.svg" alt="grow together" />
+        <h2 class="card-title">Grow Together</h2>
+        <p class="card-body">
+          Generate meaningful discussions with your audience and build a strong,
+          loyal community. Think of the insightful conversations you miss out on
+          with a feedback form.
+        </p>
+      </section>
+      <section id="conversations">
+        <img
+          src="images/illustration-flowing-conversation.svg"
+          alt="conversation"
+        />
+        <h2 class="card-title">Flowing Conversations</h2>
+        <p class="card-body">
+          You wouldn't paginate a conversation in real life, so why do it
+          online? Our threads have just-in-time loading for a more natural flow.
+        </p>
+      </section>
+      <section id="users">
+        <img src="images/illustration-your-users.svg" alt="users" />
+        <h2 class="card-title">Your Users</h2>
+        <p class="card-body">
+          It takes no time at all to integrate Huddle with your app's
+          authentication solution. This means, once signed in to your app, your
+          users can start chatting immediately.
+        </p>
+      </section>
+    </section>
+    <section id="ready">
+      <h3>Ready To Build Your Community?</h3>
+      <a href="#">Get Started For Free</a>
+    </section>
+    <footer>
+      <img id="footer-logo" src="images/logo2.svg" alt="logo" />
+      <section id="location">
+        <img
+          id="location-icon"
+          class="footer-icon"
+          src="images/icon-location.svg"
+          alt="location"
+        />
+        <span class="footer-span"
+          >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqu</span
+        >
+      </section>
+      <section id="phone">
+        <img class="footer-icon" src="images/icon-phone.svg" alt="phone" />
+        <span class="footer-span">+1-543-123-4567</span>
+      </section>
+      <section id="email">
+        <img class="footer-icon" src="images/icon-email.svg" alt="email" />
+        <span class="footer-span">example@huddle.com</span>
+      </section>
+      <section id="links">
+        <ul>
+          <li>About Us</li>
+          <li>What We Do</li>
+          <li>FAQ</li>
+          <li>Career</li>
+          <li>Blog</li>
+          <li>Contact Us</li>
+        </ul>
+      </section>
+      <section id="social">
+        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+      </section>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Try It Free
-
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
-
-  Get Started For Free
-
-  Grow Together
-
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
-
-  Flowing Conversations
-
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads 
-  have just-in-time loading for a more natural flow.
-
-  Your Users
-
-  It takes no time at all to integrate Huddle with your app's authentication solution. 
-  This means, once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-  incididunt ut labore et dolore magna aliqua
-
-  +1-543-123-4567
-  example@huddle.com
-
-  About Us
-  What We Do
-  FAQ
-
-  Career
-  Blog
-  Contact Us
-
-  &copy; Copyright 2018 Huddle. All rights reserved.
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+      <p class="attribution">
+        &copy; Copyright 2018 Huddle. All rights reserved. Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://joe-himes.netlify.app/">Joseph Himes</a>.
+      </p>
+    </footer>
+  </body>
 </html>
