@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -26,44 +32,57 @@
         <img src="images/logo.svg" alt="logo" />
         <a href="#">Try It Free</a>
       </section>
-      <h1>Build The Community Your Fans Will Love</h1>
-      <p>
-        Huddle re-imagines the way we build communities. You have a voice, but
-        so does your audience. Create connections with your users as you engage
-        in genuine discussion.
-      </p>
-      <a href="#">Get Started For Free</a>
-      <img src="images/illustration-mockups.svg" alt="mockups" />
+      <section id="heading-section">
+        <div id="heading">
+          <h1>Build The Community Your Fans Will Love</h1>
+          <p>
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <a href="#">Get Started For Free</a>
+        </div>
+        <div id="heading-image">
+          <img src="images/illustration-mockups.svg" alt="mockups" />
+        </div>
+      </section>
     </section>
     <section id="cards">
       <section id="grow">
         <img src="images/illustration-grow-together.svg" alt="grow together" />
-        <h2 class="card-title">Grow Together</h2>
-        <p class="card-body">
-          Generate meaningful discussions with your audience and build a strong,
-          loyal community. Think of the insightful conversations you miss out on
-          with a feedback form.
-        </p>
+        <div class="card">
+          <h2 class="card-title">Grow Together</h2>
+          <p class="card-body">
+            Generate meaningful discussions with your audience and build a
+            strong, loyal community. Think of the insightful conversations you
+            miss out on with a feedback form.
+          </p>
+        </div>
       </section>
       <section id="conversations">
         <img
           src="images/illustration-flowing-conversation.svg"
           alt="conversation"
         />
-        <h2 class="card-title">Flowing Conversations</h2>
-        <p class="card-body">
-          You wouldn't paginate a conversation in real life, so why do it
-          online? Our threads have just-in-time loading for a more natural flow.
-        </p>
+        <div class="card">
+          <h2 class="card-title">Flowing Conversations</h2>
+          <p class="card-body">
+            You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a more natural
+            flow.
+          </p>
+        </div>
       </section>
       <section id="users">
         <img src="images/illustration-your-users.svg" alt="users" />
-        <h2 class="card-title">Your Users</h2>
-        <p class="card-body">
-          It takes no time at all to integrate Huddle with your app's
-          authentication solution. This means, once signed in to your app, your
-          users can start chatting immediately.
-        </p>
+        <div class="card">
+          <h2 class="card-title">Your Users</h2>
+          <p class="card-body">
+            It takes no time at all to integrate Huddle with your app's
+            authentication solution. This means, once signed in to your app,
+            your users can start chatting immediately.
+          </p>
+        </div>
       </section>
       <section id="ready">
         <h3>Ready To Build Your Community?</h3>
@@ -72,41 +91,45 @@
     </section>
     <footer>
       <img id="footer-logo" src="images/logo2.svg" alt="logo" />
-      <section id="location">
-        <img
-          id="location-icon"
-          class="footer-icon"
-          src="images/icon-location.svg"
-          alt="location"
-        />
-        <span class="footer-span"
-          >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqu</span
-        >
-      </section>
-      <section id="phone">
-        <img class="footer-icon" src="images/icon-phone.svg" alt="phone" />
-        <span class="footer-span">+1-543-123-4567</span>
-      </section>
-      <section id="email">
-        <img class="footer-icon" src="images/icon-email.svg" alt="email" />
-        <span class="footer-span">example@huddle.com</span>
-      </section>
-      <section id="links">
-        <ul>
-          <li>About Us</li>
-          <li>What We Do</li>
-          <li>FAQ</li>
-          <li>Career</li>
-          <li>Blog</li>
-          <li>Contact Us</li>
-        </ul>
-      </section>
-      <section id="social">
-        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-      </section>
+      <div id="footer-links">
+        <div class="contact">
+          <section id="location">
+            <img
+              id="location-icon"
+              class="footer-icon"
+              src="images/icon-location.svg"
+              alt="location"
+            />
+            <span class="footer-span"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqu</span
+            >
+          </section>
+          <section id="phone">
+            <img class="footer-icon" src="images/icon-phone.svg" alt="phone" />
+            <span class="footer-span">+1-543-123-4567</span>
+          </section>
+          <section id="email">
+            <img class="footer-icon" src="images/icon-email.svg" alt="email" />
+            <span class="footer-span">example@huddle.com</span>
+          </section>
+        </div>
+        <section id="links">
+          <ul>
+            <li>About Us</li>
+            <li>What We Do</li>
+            <li>FAQ</li>
+            <li>Career</li>
+            <li>Blog</li>
+            <li>Contact Us</li>
+          </ul>
+        </section>
+        <section id="social">
+          <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+          <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        </section>
+      </div>
 
       <p class="attribution">
         &copy; Copyright 2018 Huddle. All rights reserved. Challenge by
