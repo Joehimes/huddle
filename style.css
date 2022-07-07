@@ -102,8 +102,13 @@ img {
      margin: 5px auto 30px;
 }
 
-#intro > a {
-     margin:0 auto 50px;
+#heading {
+     display: flex;
+     flex-direction: column;
+}
+
+#heading > a {
+     margin: 0 auto 50px;
      text-decoration: none;
      color: white;
      font-size: 1.8em;
@@ -253,7 +258,7 @@ ion-icon {
      }
 
      #heading > a {
-          margin:0 auto 50px;
+          margin: 0 auto 50px;
           text-decoration: none;
           color: white;
           font-size: 1.8em;
